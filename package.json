@@ -1,0 +1,17 @@
+{
+  "name": "accountflow",
+  "private": true,
+  "packageManager": "pnpm@10.12.1",
+  "scripts": {
+    "dev": "npx pnpm exec turbo dev",
+    "build": "npx pnpm exec turbo build",
+    "lint": "npx pnpm exec turbo lint",
+    "typecheck": "npx pnpm exec turbo typecheck",
+    "test": "npx pnpm exec turbo test",
+    "test:e2e": "npx pnpm --filter @accountflow/web test:e2e",
+    "seed": "node apps/api/scripts/seed-demo-data.mjs"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.14"
+  }
+}

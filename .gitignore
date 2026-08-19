@@ -1,0 +1,19 @@
+node_modules
+.pnpm-store
+.next
+dist
+coverage
+.env
+.env.local
+*.log
+.DS_Store
+.turbo
+
+
+# Playwright
+test-results
+playwright-report
+apps/web/e2e/.auth
+
+# Local scratch (screenshots, recovered backups)
+tmp

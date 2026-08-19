@@ -1,0 +1,28 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "web",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "next",
+        "dev",
+        "--port",
+        "3000"
+      ],
+      "cwd": "apps/web",
+      "port": 3000
+    },
+    {
+      "name": "api",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "nest",
+        "start",
+        "--watch"
+      ],
+      "cwd": "apps/api",
+      "port": 4000
+    }
+  ]
+}
